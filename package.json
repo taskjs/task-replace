@@ -1,0 +1,32 @@
+{
+  "name": "task-replace",
+  "version": "0.1.0",
+  "main": "lib/replace.js",
+  "description": "Replace text in files.",
+  "homepage": "https://github.com/taskjs/task-replace",
+  "bugs": "https://github.com/taskjs/task-replace/issues",
+  "author": {
+    "name": "Yuanyan Cao",
+    "email": "yuanyan.cao@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/taskjs/task-replace"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "keywords": [
+    "task",
+    "replace"
+  ],
+  "dependencies": {
+    "execution": "^0.1.1",
+    "record": "^0.2.0"
+  },
+  "scripts": {
+    "test": "node test/replace_test"
+  }
+}
